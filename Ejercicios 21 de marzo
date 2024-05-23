@@ -1,0 +1,22 @@
+#Verificación de paridad
+num=int(input("ingrese un número:"))
+
+if num%2==0:
+    print("El número es par")
+else:
+    print("El número es impar")
+
+#Resolución de una ecuación de primer grado
+
+print("Ecuación de primer grado")
+a=int(input("Ingrese un número:"))
+b=int(input("Ingrese un número:"))
+
+if a!=0:
+    x=-(b/a)
+    print(x)
+else:
+    if b==0:
+        print("Solución indeterminada")
+    else:
+        print("Solución imposible")
